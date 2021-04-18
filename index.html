@@ -1,18 +1,41 @@
 <!DOCTYPE HTML>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Тег IFRAME</title>
- </head>
- <body>  
+<html lang="en">
 
- <iframe src="simple_box.html" width="600" height="600" align="left">
-    Браузер не поддерживает iframe!
- </iframe>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Test task for Blend4Web">
+    <meta name="author" content="Rubbyhorn">
+    <title>Blend4Web</title>
 
- <iframe src="simple_box.html" width="600" height="600" align="left">
-    Браузер не поддерживает iframe!
- </iframe>
+    <!-- MINI.CSS -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-dark.min.css">
 
- </body>
+</head>
+<body>
+    <header class="">
+        <a href="#" class="logo">Blend4Web test task</a>
+    </header>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-2"></div>
+        <div class="col-sm-first col-md-normal col-sm-12 col-md">
+            <div class="card fluid">
+                <h3>Simple box rotation</h3>
+                <iframe src="simple_box_rotation.html" height="600" allowfullscreen>
+                    The browser does not support iframes!
+                </iframe>
+            </div>
+            <div class="card fluid">
+                <h3>Simple box rotation</h3>
+                <iframe src="simple_box_rotation.html" height="600" allowfullscreen>
+                    The browser does not support iframes!
+                </iframe>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3"></div>
+    </div>
+</div>
+</body>
 </html>
